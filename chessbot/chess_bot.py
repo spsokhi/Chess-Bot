@@ -20,7 +20,7 @@ def algebraic_to_uci(board, move):
         return move
 
 def main():
-    engine_path = "/path/to/your/stockfish/executable" # Correct path to the Stockfish binary
+    engine_path = "/path/to/your/stockfish/executable" # path to the Stockfish binary
     board = chess.Board()
 
     color = input("Do you want to play as white or black? (w/b): ").strip().lower()

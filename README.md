@@ -29,25 +29,26 @@ This project contains two main components: a command-line chess bot and a GUI-ba
 ## How to Run
 ### Command-Line Chess Bot
 1. **Navigate to the chessbot directory:**
+   
    ```cd chessbot```
-2. **Create and activate a virtual environment:**
+3. **Create and activate a virtual environment:**
    ```
    python3 -m venv chess_bot_env
    source chess_bot_env/bin/activate
 
-3. **Install the required dependencies:**
+4. **Install the required dependencies:**
    ```
    pip install python-chess
 
-4. **Download Stockfish:**
+5. **Download Stockfish:**
    - Visit the Stockfish website and download the appropriate version for your operating system. [Stockfish website](https://stockfishchess.org/download/)
    - Extract the downloaded file to a directory of your choice (e.g., stockfish).
    
-5. **Update the engine_path in chess_bot.py to point to your Stockfish executable:**
+6. **Update the engine_path in chess_bot.py to point to your Stockfish executable:**
      ```
      engine_path = "/path/to/your/stockfish/executable"
 
-6. **Run the chess bot:**
+7. **Run the chess bot:**
    ```
    python chess_bot.py
 

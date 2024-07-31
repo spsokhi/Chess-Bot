@@ -70,10 +70,8 @@ This project contains two main components: a command-line chess bot and a GUI-ba
    python main.py
 
    
-Notes
-Make sure to download and place the Stockfish engine executable in an accessible location if you plan to use it with the GUI-based chess bot.
-Update the path to the Stockfish executable in the code as needed.
-
-
-This setup will ensure that the `stockfish` directory and `stockfish-macos-x86-64.tar` file are not uploaded to GitHub, and provides clear instructions on how to run both parts of the project.
+> [!NOTE]
+> Make sure to download and place the Stockfish engine executable in an accessible location if you plan to use it with the GUI-based chess bot.
+> Update the path to the Stockfish executable in the code as needed.
+> This setup will ensure that the `stockfish` directory and `stockfish-macos-x86-64.tar` file are not uploaded to GitHub, and provides clear instructions on how to run both parts of the project.
 

@@ -38,7 +38,12 @@ This project contains two main components: a command-line chess bot and a GUI-ba
 3. **Install the required dependencies:**
    ```
    pip install python-chess
-4. **Run the chess bot:**
+   
+4. **Update the engine_path in chess_bot.py to point to your Stockfish executable:**
+     ```
+     engine_path = "/path/to/your/stockfish/executable"
+
+5. **Run the chess bot:**
    ```
    python chess_bot.py
 

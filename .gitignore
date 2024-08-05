@@ -1,0 +1,20 @@
+# Ignore virtual environments
+env/
+venv/
+chess_bot_env/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE project files
+.idea/
+.vscode/
+
+# Ignore Stockfish directory and tar file
+stockfish/
+stockfish-macos-x86-64.tar

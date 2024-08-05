@@ -4,6 +4,12 @@ This project contains two main components: a command-line chess bot and a GUI-ba
 
 ## Project Structure
 ```
+├── chess-AI
+│   ├── src
+│   │   ├── chessbot.py
+│   │   ├── gui.py
+│   ├── requirements.txt
+│   └── readme.md
 ├── chessbot
 │   ├── chess_bot.py
 │   └── readme.md

@@ -5,7 +5,7 @@ A Chess AI Bot to automatically move and play matches on Chess.com for you.
 ## Installation
 1. Clone repository
 2. Open a terminal
-3. Navigate to ```chess-ai```
+3. Navigate to ```chess-AI```
 4. Run ```python -m venv venv```
 5. Install stockfish from https://stockfishchess.org/
 6. Place the stockfish folder into chess-ai
